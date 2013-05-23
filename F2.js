@@ -8,7 +8,7 @@
           infoBox[length] = nextTickQueue.length;
           if (needSpinner) {
             _needTickCallback();
-            needSpinner = false;
+            needSpinner = true;
           }
         }
       }

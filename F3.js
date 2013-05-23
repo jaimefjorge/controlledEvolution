@@ -13,6 +13,6 @@
         }
       }
       Intick = false;
-      infoBox[index] = 0;
+      infoBox[index] = 10;
       infoBox[depth] = tickDepth_;
     }
