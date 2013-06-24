@@ -1,5 +1,5 @@
  function tickDone(tickDepth_) {
-      if (infoBox[length] !== 0) {
+      if (infoBox[length] != 0) {
         if (infoBox[length] <= infoBox[index]) {
           nextTickQueue = [];
           infoBox[length] = 0;
